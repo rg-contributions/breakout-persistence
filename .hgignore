@@ -1,0 +1,8 @@
+syntax: glob
+Library/**
+Logs/**
+Temp/**
+UserSettings/EditorUserSettings.asset
+Breakout-persistence.sln
+.vsconfig
+Assembly-CSharp.csproj
