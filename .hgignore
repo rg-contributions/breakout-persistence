@@ -6,3 +6,5 @@ UserSettings/EditorUserSettings.asset
 Breakout-persistence.sln
 .vsconfig
 Assembly-CSharp.csproj
+.vs/**
+obj/**
