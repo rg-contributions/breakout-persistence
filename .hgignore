@@ -8,3 +8,4 @@ Breakout-persistence.sln
 Assembly-CSharp.csproj
 .vs/**
 obj/**
+Assembly-CSharp.csproj.user

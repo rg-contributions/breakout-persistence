@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.IO;
 
 public class MenuHandler : MonoBehaviour
 {
@@ -10,18 +12,8 @@ public class MenuHandler : MonoBehaviour
     public void OnStart()
     {
         var name = playerNameBox.GetComponent<Text>().text;
-        //Debug.Log(name);
-    }
+        DataKeeper.Instance.currentPlayerName = name;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.LoadScene("main");
     }
 }
